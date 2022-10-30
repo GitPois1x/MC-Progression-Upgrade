@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mc_progression_upgrade",
+  "version": "${version}",
+  "name": "MC Progression Upgrade",
+  "description": "MC Progression Upgrade",
+  "authors": [
+    "Pois1x"
+  ],
+  "contact": {
+    "repo": "https://github.com/GitPois1x/MC-Progression-Upgrade/"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "Pois1x.MCProgressionUpgrade.fabric.MCProgressionUpgradeFabric"
+    ]
+  },
+  "mixins": [
+    "mc_progression_upgrade.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}

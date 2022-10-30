@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "namelessprogressionupdate:item/blaze_extract"
-	},
-	"display": {}
-}
