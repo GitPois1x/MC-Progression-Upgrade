@@ -1,0 +1,34 @@
+{
+  "itemGroup.mc_progression_upgrade.mc_progression_upgrade": "Nameless Progression Upgrade",
+	
+  "item.mc_progression_upgrade.pole": "Pole",
+  "item.mc_progression_upgrade.bamboo_pole": "Bamboo Pole",
+  "item.mc_progression_upgrade.dense_ice": "Dense Ice",
+  "item.mc_progression_upgrade.zombie_hide": "Zombie Hide",
+  "item.mc_progression_upgrade.zombie_leather": "Zombie Leather",
+  "item.mc_progression_upgrade.metal_polish": "Metal Polish",
+  "item.mc_progression_upgrade.magical_extract": "Magical Extract",
+  "item.mc_progression_upgrade.blaze_extract": "Blaze Extract",
+  "item.mc_progression_upgrade.tears_of_the_universe": "Tears of The Universe",
+  
+  "item.mc_progression_upgrade.bamboo_spear": "Jungle Spear",
+  "item.mc_progression_upgrade.bamboo_halberd": "Jungle Halberd",
+  "item.mc_progression_upgrade.the_tooth": "Jungle Greatsword",
+  "item.mc_progression_upgrade.overgrown_the_tooth": "Overgrown Jungle Greatsword",
+  "item.mc_progression_upgrade.cactus_sword": "Cactus Sword",
+  "item.mc_progression_upgrade.cactus_pickaxe": "Cactus Pickaxe",
+  "item.mc_progression_upgrade.frost_dagger": "Frost Dagger",
+  "item.mc_progression_upgrade.frost_blade": "Frost Katana",
+  
+  "item.mc_progression_upgrade.iron_halberd": "Iron Halberd",
+  "item.mc_progression_upgrade.iron_glaive": "Iron Glaive",
+  "item.mc_progression_upgrade.iron_greatsword": "Iron Greatsword",
+  "item.mc_progression_upgrade.iron_katana": "Iron Katana",
+  
+  "item.mc_progression_upgrade.hell_bird": "Hell Bird",
+  "item.mc_progression_upgrade.diamond_scythe": "Diamond Scythe",
+  
+  "item.mc_progression_upgrade.netherite_scythe": "Netherite Scythe",
+  "item.mc_progression_upgrade.terra_blade": "Terra Blade",
+  "item.mc_progression_upgrade.fetid_baghnakhs": "Fetid Baghnakhs"
+}
