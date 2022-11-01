@@ -35,9 +35,13 @@
   "item.mc_progression_upgrade.copper_axe": "Copper Axe",
   "item.mc_progression_upgrade.copper_shovel": "Copper Shovel",
   "item.mc_progression_upgrade.copper_hoe": "Copper Hoe",
+  "item.mc_progression_upgrade.gold_rapier": "Gold Rapier",
   
   "item.mc_progression_upgrade.hell_bird": "Hell Bird",
   "item.mc_progression_upgrade.diamond_scythe": "Diamond Scythe",
+  "item.mc_progression_upgrade.diamond_hammer": "Diamond Hammer",
+  "item.mc_progression_upgrade.diamond_mace": "Diamond Mace",
+  "item.mc_progression_upgrade.diamond_cutlass": "Diamond Cutlass",
   "item.mc_progression_upgrade.amethyst_helmet": "Amethyst Helmet",
   "item.mc_progression_upgrade.amethyst_chestplate": "Amethyst Chestplate",
   "item.mc_progression_upgrade.amethyst_leggings": "Amethyst Leggings",
@@ -58,6 +62,9 @@
   "item.mc_progression_upgrade.emerald_hoe": "Emerald Hoe",
   
   "item.mc_progression_upgrade.netherite_scythe": "Netherite Scythe",
+  "item.mc_progression_upgrade.netherite_hammer": "Netherite Hammer",
+  "item.mc_progression_upgrade.netherite_mace": "Netherite Mace",
+  "item.mc_progression_upgrade.netherite_cutlass": "Netherite Cutlass",
   "item.mc_progression_upgrade.cinder_greatsword": "Cinder Greatsword",
   "item.mc_progression_upgrade.cinder_pickaxe_axe": "Cinder Pickaxe Axe",
   "item.mc_progression_upgrade.terra_blade": "Terra Blade",
