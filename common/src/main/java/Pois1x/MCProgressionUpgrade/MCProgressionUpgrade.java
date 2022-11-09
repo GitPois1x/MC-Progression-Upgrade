@@ -1,6 +1,6 @@
 package Pois1x.MCProgressionUpgrade;
 
-import Pois1x.MCProgressionUpgrade.Registry.ItemRegistry;
+import Pois1x.MCProgressionUpgrade.registry.ItemRegistry;
 import net.minecraft.util.Identifier;
 
 public class MCProgressionUpgrade {

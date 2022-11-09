@@ -1,6 +1,9 @@
-package Pois1x.MCProgressionUpgrade.Registry;
+package Pois1x.MCProgressionUpgrade.registry;
 
 import Pois1x.MCProgressionUpgrade.MCProgressionUpgrade;
+import Pois1x.MCProgressionUpgrade.item.MPUArmorMaterials;
+import Pois1x.MCProgressionUpgrade.item.MPUToolMaterials;
+import Pois1x.MCProgressionUpgrade.item.PickaxeAxeItem;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.EquipmentSlot;
@@ -23,11 +26,11 @@ public class ItemRegistry {
     public static final RegistrySupplier<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel", () -> new ShovelItem(MPUToolMaterials.AMETHYST, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe", () -> new HoeItem(MPUToolMaterials.AMETHYST, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ASTRAL_GREATSWORD = ITEMS.register("astral_greatsword", () -> new SwordItem(ToolMaterials.WOOD, 1, 1F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> ASTRAL_PICKAXE_AXE = ITEMS.register("astral_pickaxe_axe", () -> new Item(new Item.Settings().fireproof().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> ASTRAL_PICKAXE_AXE = ITEMS.register("astral_pickaxe_axe", () -> new PickaxeAxeItem(ToolMaterials.IRON, 1, 1F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> CACTUS_PICKAXE = ITEMS.register("cactus_pickaxe", () -> new PickaxeItem(ToolMaterials.IRON, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> CACTUS_SWORD = ITEMS.register("cactus_sword", () -> new SwordItem(ToolMaterials.IRON, 2, 1F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> CINDER_GREATSWORD = ITEMS.register("cinder_greatsword", () -> new SwordItem(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> CINDER_PICKAXE_AXE = ITEMS.register("cinder_pickaxe_axe", () -> new Item(new Item.Settings().fireproof().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> CINDER_PICKAXE_AXE = ITEMS.register("cinder_pickaxe_axe", () -> new PickaxeAxeItem(ToolMaterials.IRON, 1, 1F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.HEAD, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.CHEST, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.LEGS, new Item.Settings().group(CREATIVE_TAB)));

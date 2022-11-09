@@ -1,6 +1,6 @@
 package Pois1x.MCProgressionUpgrade;
 
-import Pois1x.MCProgressionUpgrade.Registry.ItemRegistry;
+import Pois1x.MCProgressionUpgrade.registry.ItemRegistry;
 import dev.architectury.registry.CreativeTabRegistry;
 import net.minecraft.item.ItemGroup;
 

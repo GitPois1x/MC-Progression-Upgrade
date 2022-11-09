@@ -1,4 +1,4 @@
-package Pois1x.MCProgressionUpgrade.Registry;
+package Pois1x.MCProgressionUpgrade.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.item.Items;
