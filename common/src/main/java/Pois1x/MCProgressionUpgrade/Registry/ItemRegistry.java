@@ -3,6 +3,7 @@ package Pois1x.MCProgressionUpgrade.Registry;
 import Pois1x.MCProgressionUpgrade.MCProgressionUpgrade;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.registry.Registry;
 
@@ -12,11 +13,10 @@ import static Pois1x.MCProgressionUpgrade.CreativeTabGroup.CREATIVE_TAB;
 public class ItemRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MCProgressionUpgrade.MOD_ID, Registry.ITEM_KEY);
-
-    public static final RegistrySupplier<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet", () -> new ArmorItem(MPUArmorMaterials.AMETHYST, EquipmentSlot.HEAD, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate", () -> new ArmorItem(MPUArmorMaterials.AMETHYST, EquipmentSlot.CHEST, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings", () -> new ArmorItem(MPUArmorMaterials.AMETHYST, EquipmentSlot.LEGS, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots", () -> new ArmorItem(MPUArmorMaterials.AMETHYST, EquipmentSlot.FEET, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword", () -> new SwordItem(MPUToolMaterials.AMETHYST, 4, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe", () -> new PickaxeItem(MPUToolMaterials.AMETHYST, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe", () -> new AxeItem(MPUToolMaterials.AMETHYST, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
@@ -28,10 +28,10 @@ public class ItemRegistry {
     public static final RegistrySupplier<Item> CACTUS_SWORD = ITEMS.register("cactus_sword", () -> new SwordItem(ToolMaterials.IRON, 2, 1F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> CINDER_GREATSWORD = ITEMS.register("cinder_greatsword", () -> new SwordItem(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> CINDER_PICKAXE_AXE = ITEMS.register("cinder_pickaxe_axe", () -> new Item(new Item.Settings().fireproof().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.HEAD, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.CHEST, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.LEGS, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ArmorItem(MPUArmorMaterials.COPPER, EquipmentSlot.FEET, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_SWORD = ITEMS.register("copper_sword", () -> new SwordItem(MPUToolMaterials.COPPER, 3, 1.2F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_PICKAXE = ITEMS.register("copper_pickaxe", () -> new PickaxeItem(MPUToolMaterials.COPPER, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> COPPER_AXE = ITEMS.register("copper_axe", () -> new AxeItem(MPUToolMaterials.COPPER, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
@@ -41,10 +41,10 @@ public class ItemRegistry {
     public static final RegistrySupplier<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () -> new SwordItem(ToolMaterials.DIAMOND, 4, -2.4F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> DIAMOND_MACE = ITEMS.register("diamond_mace", () -> new SwordItem(ToolMaterials.DIAMOND, 8, -2.8F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> DIAMOND_CUTLASS = ITEMS.register("diamond_cutlass", () -> new SwordItem(ToolMaterials.DIAMOND, 0, -1.6F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet", () -> new ArmorItem(MPUArmorMaterials.EMERALD, EquipmentSlot.HEAD, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate", () -> new ArmorItem(MPUArmorMaterials.EMERALD, EquipmentSlot.CHEST, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings", () -> new ArmorItem(MPUArmorMaterials.EMERALD, EquipmentSlot.LEGS, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots", () -> new ArmorItem(MPUArmorMaterials.EMERALD, EquipmentSlot.FEET, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", () -> new SwordItem(MPUToolMaterials.EMERALD, 4, 1.1F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", () -> new PickaxeItem(MPUToolMaterials.EMERALD, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> EMERALD_AXE = ITEMS.register("emerald_axe", () -> new AxeItem(MPUToolMaterials.EMERALD, 2, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
