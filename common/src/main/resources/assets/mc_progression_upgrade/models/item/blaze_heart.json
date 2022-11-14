@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "mc_progression_upgrade:item/blaze_extract"
+		"layer0": "mc_progression_upgrade:item/blaze_heart"
 	}
 }

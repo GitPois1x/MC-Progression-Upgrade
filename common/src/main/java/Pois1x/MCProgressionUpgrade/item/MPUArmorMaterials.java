@@ -11,9 +11,9 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum MPUArmorMaterials implements ArmorMaterial {
-    AMETHYST("amethyst", 25, new int[]{ 2, 5, 6, 2 }, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
-    COPPER("copper", 15, new int[]{ 1, 4, 5, 2 }, 4, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
-    EMERALD("emerald", 33, new int[]{ 3, 6, 8, 3 }, 16, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.ofItems(Items.EMERALD));
+    AMETHYST("amethyst", 20, new int[]{ 3, 6, 8, 3 }, 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0F, 0.0F, () -> Ingredient.ofItems(Items.AMETHYST_SHARD)),
+    COPPER("copper", 12, new int[]{ 1, 4, 5, 2 }, 14, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    EMERALD("emerald", 33, new int[]{ 3, 6, 8, 3 }, 23, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.ofItems(Items.EMERALD));
 
     private static final int[] BASE_DURABILITY = new int[]{ 13, 15, 16, 11 };
     private final String name;

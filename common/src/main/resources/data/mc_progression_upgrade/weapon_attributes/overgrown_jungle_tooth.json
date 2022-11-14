@@ -9,7 +9,7 @@
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 0.8,
         "angle": 150,
-        "upswing": 0.4,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_right",
         "swing_sound": {
           "id": "bettercombat:claymore_swing"
@@ -19,7 +19,7 @@
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 0.8,
         "angle": 150,
-        "upswing": 0.4,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_left",
         "swing_sound": {
           "id": "bettercombat:claymore_swing"
@@ -29,7 +29,7 @@
         "hitbox": "FORWARD_BOX",
         "damage_multiplier": 1.2,
         "angle": 0,
-        "upswing": 0.7,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_stab_left",
         "swing_sound": {
           "id": "bettercombat:claymore_stab"
@@ -39,7 +39,7 @@
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 0.8,
         "angle": 150,
-        "upswing": 0.4,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_right",
         "swing_sound": {
           "id": "bettercombat:claymore_swing"
@@ -49,7 +49,7 @@
         "hitbox": "HORIZONTAL_PLANE",
         "damage_multiplier": 0.8,
         "angle": 150,
-        "upswing": 0.4,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_slash_horizontal_left",
         "swing_sound": {
           "id": "bettercombat:claymore_swing"
@@ -59,7 +59,7 @@
         "hitbox": "VERTICAL_PLANE",
         "damage_multiplier": 1.6,
         "angle": 150,
-        "upswing": 0.7,
+		"upswing": 0.5,
         "animation": "bettercombat:two_handed_slam",
         "swing_sound": {
           "id": "bettercombat:claymore_slam",

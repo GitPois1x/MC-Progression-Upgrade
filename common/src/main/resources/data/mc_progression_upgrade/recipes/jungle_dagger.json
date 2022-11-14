@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# ",
+        "BL"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bone"
+        },
+        "B": {
+            "item": "minecraft:bamboo"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "mc_progression_upgrade:jungle_dagger",
+        "count": 1
+    }
+}

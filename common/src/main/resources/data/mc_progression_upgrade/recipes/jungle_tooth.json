@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "B#B",
+        "BMB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bone_block"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "M": {
+            "item": "mc_progression_upgrade:bamboo_pole"
+        }
+    },
+    "result": {
+        "item": "minecraft_progression_upgrade:jungle_tooth",
+        "count": 1
+    }
+}

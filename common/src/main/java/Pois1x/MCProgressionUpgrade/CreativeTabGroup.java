@@ -6,6 +6,6 @@ import net.minecraft.item.ItemGroup;
 
 public class CreativeTabGroup {
 
-    public static final ItemGroup CREATIVE_TAB = CreativeTabRegistry.create(MCProgressionUpgrade.id(MCProgressionUpgrade.MOD_ID), () -> ItemRegistry.JUNGLE_HALBERD.get().getDefaultStack());
+    public static final ItemGroup CREATIVE_TAB = CreativeTabRegistry.create(MCProgressionUpgrade.id(MCProgressionUpgrade.MOD_ID), () -> ItemRegistry.METAL_POLISH.get().getDefaultStack());
 
 }

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "D S",
+        "  M"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "M": {
+            "item": "mc_progression_upgrade:pole"
+        }
+    },
+    "result": {
+        "item": "mc_progression_upgrade:diamond_scythe",
+        "count": 1
+    }
+}

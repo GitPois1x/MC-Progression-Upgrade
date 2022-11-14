@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "L",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "mc_progression_upgrade:bamboo_pole",
+        "count": 1
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "mc_progression_upgrade:item/hardwood_shield",
+		"particle": "mc_progression_upgrade:item/hardwood_shield"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [35, -55, 0],
+			"translation": [2.5, -1.75, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [35, -55, 0],
+			"translation": [2.5, -1.75, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 15],
+			"translation": [-0.5, 0, 0],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 15],
+			"translation": [-0.5, 0, 0],
+			"scale": [0.85, 0.85, 0.85]
+		}
+	}
+}
