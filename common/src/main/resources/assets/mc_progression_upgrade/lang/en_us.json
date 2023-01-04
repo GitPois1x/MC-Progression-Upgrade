@@ -27,7 +27,6 @@
   "item.mc_progression_upgrade.cactus_shovel": "Cactus Shovel",
   "item.mc_progression_upgrade.cactus_hoe": "Cactus Hoe",
   
-  "item.mc_progression_upgrade.iron_halberd": "Iron Halberd",
   "item.mc_progression_upgrade.iron_glaive": "Iron Glaive",
   "item.mc_progression_upgrade.iron_greatsword": "Iron Greatsword",
   "item.mc_progression_upgrade.iron_katana": "Iron Katana",
@@ -40,7 +39,9 @@
   "item.mc_progression_upgrade.copper_axe": "Copper Axe",
   "item.mc_progression_upgrade.copper_shovel": "Copper Shovel",
   "item.mc_progression_upgrade.copper_hoe": "Copper Hoe",
-  "item.mc_progression_upgrade.gold_rapier": "Gold Rapier",
+  "item.mc_progression_upgrade.golden_rapier": "Golden Rapier",
+  "item.mc_progression_upgrade.golden_greatsword": "Golden Greatsword",
+  "item.mc_progression_upgrade.golden_halberd": "Golden Halberd",
   "item.mc_progression_upgrade.hardwood_sword": "Hardwood Sword",
   "item.mc_progression_upgrade.hardwood_greatsword": "Hardwood Greatsword",
   "item.mc_progression_upgrade.hardwood_pickaxe": "Hardwood Pickaxe",
@@ -85,6 +86,7 @@
   "item.mc_progression_upgrade.cinder_greatsword": "Cinder Greatsword",
   "item.mc_progression_upgrade.cinder_pickaxe_axe": "Cinder Pickaxe Axe",
   
+  "item.mc_progression_upgrade.lunar_greatsword": "Lunar Greatsword",
   "item.mc_progression_upgrade.astral_greatsword": "Astral Greatsword",
   "item.mc_progression_upgrade.astral_pickaxe_axe": "Astral Pickaxe Axe"
 }

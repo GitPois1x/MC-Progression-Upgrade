@@ -60,12 +60,14 @@ public class ItemRegistry {
     public static final RegistrySupplier<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", () -> new ShovelItem(MPUToolMaterials.EMERALD, 1.5F, -3F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> EMERALD_HOE = ITEMS.register("emerald_hoe", () -> new HoeItem(MPUToolMaterials.EMERALD, -3, 0F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> EMERALD_HAMMER = ITEMS.register("emerald_hammer", () -> new SwordItem(MPUToolMaterials.EMERALD, 8, -2.8F, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> EMERALD_TRIDENT = ITEMS.register("emerald_trident", () -> new SwordItem(MPUToolMaterials.EMERALD, 8, -2.8F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> HELL_BIRD = ITEMS.register("hell_bird", () -> new SwordItem(ToolMaterials.IRON, 4, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> IRON_GLAIVE = ITEMS.register("iron_glaive", () -> new SwordItem(ToolMaterials.IRON, 3, -2.4F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> IRON_GREATSWORD = ITEMS.register("iron_greatsword", () -> new SwordItem(ToolMaterials.IRON, 9, -3.2F, new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> IRON_HALBERD = ITEMS.register("iron_halberd", () -> new SwordItem(ToolMaterials.IRON, 6, -2.8F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> IRON_KATANA = ITEMS.register("iron_katana", () -> new SwordItem(ToolMaterials.IRON, 0, -1.6F, new Item.Settings().group(CREATIVE_TAB)));
-    public static final RegistrySupplier<Item> GOLD_RAPIER = ITEMS.register("gold_rapier", () -> new SwordItem(ToolMaterials.GOLD, 2, -1.6F, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> GOLDEN_HALBERD = ITEMS.register("golden_halberd", () -> new SwordItem(ToolMaterials.GOLD, 6, -2.8F, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> GOLDEN_GREATSWORD = ITEMS.register("golden_greatsword", () -> new SwordItem(ToolMaterials.GOLD, 9, -3.2F, new Item.Settings().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> GOLDEN_RAPIER = ITEMS.register("golden_rapier", () -> new SwordItem(ToolMaterials.GOLD, 2, -1.6F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BAMBOO_POLE = ITEMS.register("bamboo_pole", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> BLAZE_HEART = ITEMS.register("blaze_heart", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> HARDWOOD_GREATSWORD = ITEMS.register("hardwood_greatsword", () -> new SwordItem(MPUToolMaterials.HARDWOOD, 9, -3.2F, new Item.Settings().group(CREATIVE_TAB)));
@@ -90,6 +92,7 @@ public class ItemRegistry {
     public static final RegistrySupplier<Item> NETHERITE_CUTLASS = ITEMS.register("netherite_cutlass", () -> new SwordItem(ToolMaterials.NETHERITE, 0, -1.6F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> NETHERITE_MACE = ITEMS.register("netherite_mace", () -> new SwordItem(ToolMaterials.NETHERITE, 10, -2.8F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> NETHERITE_SCYTHE = ITEMS.register("netherite_scythe", () -> new SwordItem(ToolMaterials.NETHERITE, 15, -3.2F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
+    public static final RegistrySupplier<Item> LUNAR_GREATSWORD = ITEMS.register("lunar_greatsword", () -> new SwordItem(ToolMaterials.NETHERITE, 4, -2.4F, new Item.Settings().fireproof().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> OVERGROWN_BONE_GREATSWORD = ITEMS.register("overgrown_bone_greatsword", () -> new SwordItem(MPUToolMaterials.BONE, 8, -3.2F, new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> POLE = ITEMS.register("pole", () -> new Item(new Item.Settings().group(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> TEARS_OF_THE_UNIVERSE = ITEMS.register("tears_of_the_universe", () -> new Item(new Item.Settings().fireproof().group(CREATIVE_TAB)));
